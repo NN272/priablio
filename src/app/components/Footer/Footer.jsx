@@ -7,7 +7,7 @@ import upwork from '../../upwork.png'
 
 export default function Footer() {
     return(
-        <Container>
+        <Container id="footer">
             <Block>
                 <TextBlock>
                     <Image src={biglogo}></Image>
@@ -29,12 +29,12 @@ export default function Footer() {
                     textAlign: "center",
                     position: "absolute"
                 }}>
-                    <Link href="#">Privacy Policy</Link>
+                    <Link href="/privacypolicy/">Privacy Policy</Link>
                     <h5 style={{
                         display: "inline",
                         padding: "0 10px 0 10px"
                     }}>|</h5>
-                    <Link href="#">Terms of Service</Link>
+                    <Link href="/termsofservice/">Terms of Service</Link>
                 </div>
             </ContactsContainer>
         </Container>

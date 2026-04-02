@@ -43,7 +43,7 @@ export const Img = styled.div`
 `
 
 export const CardsContainer = styled.div`
-    width: 60vw;
+    width: 60%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

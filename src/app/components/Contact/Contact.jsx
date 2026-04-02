@@ -5,7 +5,7 @@ import Button from "./Button";
 
 export default function Contact() {
     return (
-        <Container>
+        <Container id="start">
             <Block>
                 <LogoContainer>
                     <Image style={{

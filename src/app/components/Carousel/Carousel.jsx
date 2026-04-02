@@ -34,7 +34,7 @@ export default function Carousel() {
     }, []);
 
     return (
-        <Container>
+        <Container id="carousel">
             <div style={{
                 width: "35vw"
             }}>

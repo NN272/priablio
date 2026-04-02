@@ -12,6 +12,7 @@ export const Title = styled.h2`
     font-size: 96px;
     letter-spacing: 10px;
     margin-block-end: -40px;
+    color: #000;
 `
 
 export const SubTitle = styled.h5`
