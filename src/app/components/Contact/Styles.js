@@ -11,7 +11,7 @@ export const Container = styled.div`
 `
 
 export const Block = styled.div`
-    width: 1000px;
+    width: 50vw;
     height: 600px;
     background: #000;
     border-radius: 30px;
@@ -20,10 +20,18 @@ export const Block = styled.div`
     justify-content: space-between;
     align-items: center;
     align-content: center;
+
+    @media(max-width: 450px) {
+        width: 90vw;
+    }
 `
 
 export const LogoContainer = styled.div`
     width: 100%;
+
+    @media(max-width: 900px) {
+        display: none;
+    }
 `
 
 export const TextContainer = styled.div`
@@ -35,6 +43,11 @@ export const TextContainer = styled.div`
 export const Title = styled.h3`
     color: #fff;
     font-size: 48px;
+
+    @media(max-width: 450px) {
+        font-size: 35px;
+        margin: 100px 0 0 0;
+    }
 `
 
 export const ButtonContainer = styled.div`
@@ -45,6 +58,10 @@ export const ButtonContainer = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    @media(max-width: 800px) {
+        margin: 10px 0 0 0;
+    }
 `
 
 export const ButtonTitle = styled.h6`
@@ -70,4 +87,8 @@ export const TextBlock = styled.div`
     align-items: center;
     align-content: center;
     margin: 50px;
+
+    @media(max-width: 800px) {
+        display: block;
+    }
 `

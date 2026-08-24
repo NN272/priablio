@@ -5,11 +5,13 @@ export default function Card(props) {
     return (
         <Block>
             <CardTitle>{props.title}</CardTitle>
+            <Img>
             <Image src={props.img} style={{
-                width: "360px",
-                height: "205px",
+                width: "100%",
+                height: "100%",
                 borderRadius: "10px",
             }}></Image>
+            </Img>
         </Block>
     )
 }

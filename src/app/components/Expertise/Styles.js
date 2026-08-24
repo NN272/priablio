@@ -16,6 +16,10 @@ export const Title = styled.h3`
     font-size: 55px;
     padding-block-start: 30px;
     margin-block-end: 20px;
+
+    @media(max-width: 600px) {
+        font-size: 30px;
+    }
 `
 
 export const Block = styled.div`
@@ -33,11 +37,15 @@ export const Block = styled.div`
 export const CardTitle = styled.h5`
     font-size: 36px;
     padding-block-start: 20px;
+
+    @media(max-width: 600px) {
+        font-size: 24px;
+    }
 `
 
 export const Img = styled.div`
-    width: 360px;
-    height: 205px;
+    width: 80%;
+    height: 65%;
     background: #000;
     border-radius: 10px;
 `
@@ -49,4 +57,8 @@ export const CardsContainer = styled.div`
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+
+    @media(max-width: 450px) {
+        width: 100%;
+    }
 `

@@ -16,6 +16,10 @@ export const Title = styled.h3`
     color: #fff;
     font-size: 55px;
     padding-block-start: 50px;
+
+    @media(max-width: 600px) {
+        font-size: 35px;
+    }
 `
 
 export const SubTitle = styled.h5`
@@ -30,16 +34,29 @@ export const SubTitle = styled.h5`
         content: "●";
     }
 
+    @media(max-width: 600px) {
+        font-size: 16px;
+    }
+
 `
 
 export const LButton = styled.button`
     margin-left: -150px;
     border: 0px;
+
+    @media(max-width: 450px) {
+        display: none;
+    }
 `
 
 export const RButton = styled.button`
     margin-right: -150px;
     border: 0px;
+
+    
+    @media(max-width: 450px) {
+        display: none;
+    }
 `
 
 export const CardContainer = styled.li`
@@ -80,4 +97,12 @@ export const Arrow = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+`
+
+export const CarouselWrapper = styled.div`
+    width: 35vw;
+
+    @media(max-width: 800px) {
+        width: 100%;
+    }
 `

@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from "react";
 import Glide from "@glidejs/glide";
-import { Container, Title, SubTitle } from "./Styles";
+import { Container, Title, SubTitle, CarouselWrapper } from "./Styles";
 import Slider from "./Slider";
 
 export default function Carousel() {
@@ -35,15 +35,13 @@ export default function Carousel() {
 
     return (
         <Container id="carousel">
-            <div style={{
-                width: "35vw"
-            }}>
+            <CarouselWrapper>
                 <Title>Selected Work</Title>
                 <SubTitle>
                     Selected projects showcasing a blend of AI video production, 
                     post-production, and visual direction.
                 </SubTitle>
-            </div>
+            </CarouselWrapper>
             <Slider ref={sliderRef}/>
         </Container>
     )
