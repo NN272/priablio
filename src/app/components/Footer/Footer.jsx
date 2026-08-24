@@ -25,9 +25,14 @@ export default function Footer() {
                     </ContactsBlock>
                 </div>
                 <div style={{
-                    width: "70vw",
+                    width: "70vw"
+                }}>
+                </div>
+            </ContactsContainer>
+                <div style={{
+                    width: "100%",
                     textAlign: "center",
-                    position: "absolute"
+                    margin: "30px 0 0 0"
                 }}>
                     <Link href="/privacypolicy/">Privacy Policy</Link>
                     <h5 style={{
@@ -36,7 +41,6 @@ export default function Footer() {
                     }}>|</h5>
                     <Link href="/termsofservice/">Terms of Service</Link>
                 </div>
-            </ContactsContainer>
         </Container>
     )
 }

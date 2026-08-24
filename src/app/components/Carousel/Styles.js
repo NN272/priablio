@@ -44,7 +44,7 @@ export const RButton = styled.button`
 
 export const CardContainer = styled.li`
     width: 550px;
-    height: 550px;
+    height: 50vh;
     background: #D9D9D9;
     border-radius: 10px;
     display: flex;

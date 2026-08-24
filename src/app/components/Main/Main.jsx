@@ -1,32 +1,21 @@
-import { Container, SubTitle, Title } from "./Styles";
-import main from '../../main.png';
+import { Container, MainWrapper, SubTitle, Title, ImageContainer } from "./Styles";
+// import main from '../../main.png';
 import Image from "next/image";
 import logo from '../../logo.png';
+import '../../globals.css'
 
 export default function Main() {
     return(
         <Container>
-            <Image alt="" src={main} style={{
-                height: "100vh", 
-                width: "100%",
-                display: "flex",
-                justifyContent:"center",
-                alignItems: "center",
-                position: "absolute",
-                zIndex: "-1"
-            }}>
-            </Image>
-            <div style={{
-                    display: "flex",
-                    justifyContent:"center",
-                    alignItems: "center",
-                }}>
-                <Image alt="" src={logo}></Image>
+            <MainWrapper>
+                <ImageContainer>
+                    <Image alt="123" className="mainimg" src={logo}></Image>
+                </ImageContainer>
                 <div style={{color: "black !important"}}>
                     <Title>PRIABLIO</Title>
                     <SubTitle>VIDEO AI DESIGN</SubTitle>
                 </div>
-            </div>
+            </MainWrapper>
         </Container>
     )
 }
