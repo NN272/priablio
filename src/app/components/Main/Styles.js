@@ -35,9 +35,9 @@ export const SubTitle = styled.h5`
 `
 
 export const MainWrapper = styled.div`
-    display: "flex";
-    justify-content:"center";
-    align-items: "center";
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     @media(max-width: 450px) {
         text-align: center;

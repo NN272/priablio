@@ -11,25 +11,25 @@ export const Container = styled.div`
 `
 
 export const Block = styled.div`
-    width: 50vw;
+    width: 60vw;
     height: 600px;
     background: #000;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     align-content: center;
 
-    @media(max-width: 450px) {
+    @media(max-width: 1025px) {
         width: 90vw;
     }
+
 `
 
 export const LogoContainer = styled.div`
     width: 100%;
 
-    @media(max-width: 900px) {
+    @media(max-width: 450px) {
         display: none;
     }
 `
@@ -38,13 +38,17 @@ export const TextContainer = styled.div`
     text-align: center;
     width: 80%;
     height: 65%;
+
+    @media(max-width: 800px) {
+        text-align: unset;
+    }
 `
 
 export const Title = styled.h3`
     color: #fff;
     font-size: 48px;
 
-    @media(max-width: 450px) {
+    @media(max-width: 800px) {
         font-size: 35px;
         margin: 100px 0 0 0;
     }
@@ -65,8 +69,12 @@ export const ButtonContainer = styled.div`
 `
 
 export const ButtonTitle = styled.h6`
-    font-size: 32px;
+    font-size: 28px;
     color: #000;
+
+    @media(max-width: 1025px) {
+        font-size: 20px;
+    }
 `
 
 export const Arrow = styled.div`
@@ -90,5 +98,6 @@ export const TextBlock = styled.div`
 
     @media(max-width: 800px) {
         display: block;
+        margin: 0px;
     }
 `

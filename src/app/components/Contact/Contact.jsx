@@ -8,7 +8,7 @@ export default function Contact() {
         <Container id="start">
             <Block>
                 <LogoContainer>
-                    <Image style={{
+                    <Image alt="#" style={{
                         margin: "40px 0 0 40px"
                     }} src={logo}></Image>
                 </LogoContainer>
@@ -16,7 +16,7 @@ export default function Contact() {
                     <Title>Let’s work together. <br /> Start your next project with Priablio.</Title>
                     <TextBlock>
                         <Button title="Email Us"></Button>
-                        <Button size="400px" title="Connect on Upwork"></Button>
+                        <Button size="320px" title="Connect on Upwork"></Button>
                     </TextBlock>
                 </TextContainer>
             </Block>

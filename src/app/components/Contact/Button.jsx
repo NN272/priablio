@@ -8,7 +8,7 @@ export default function Button(props) {
     if(props.size) {
         size = props.size;
     } else {
-        size = "230px";
+        size = "200px";
     }
 
     return (
@@ -16,7 +16,7 @@ export default function Button(props) {
             width: size
         }}>
             <ButtonTitle>{props.title}</ButtonTitle>
-            <Arrow><Image src={arrow}></Image></Arrow>
+            <Arrow><Image alt="#" src={arrow}></Image></Arrow>
         </ButtonContainer>
     )
 }

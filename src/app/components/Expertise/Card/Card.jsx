@@ -6,7 +6,7 @@ export default function Card(props) {
         <Block>
             <CardTitle>{props.title}</CardTitle>
             <Img>
-            <Image src={props.img} style={{
+            <Image alt="#" src={props.img} style={{
                 width: "100%",
                 height: "100%",
                 borderRadius: "10px",

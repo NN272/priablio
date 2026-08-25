@@ -10,7 +10,7 @@ export default function Footer() {
         <Container id="footer">
             <Block>
                 <TextBlock>
-                    <Image src={biglogo}></Image>
+                    <Image alt="#" src={biglogo}></Image>
                     <Subtext>Shaping Ideas Into Strong Visual Foundations</Subtext>
                 </TextBlock>
             </Block>
@@ -19,9 +19,9 @@ export default function Footer() {
                     <h5 style={{fontSize: "24px"}}>Contact</h5>
                     <h6 style={{fontSize: "20px"}}>+48 881 693 482 <br /> priablio69@gmail.com</h6>
                     <ContactsBlock>
-                        <Image src={telegram}></Image>
-                        <Image src={whatsapp}></Image>
-                        <Image src={upwork}></Image>
+                        <Image alt="#" src={telegram}></Image>
+                        <Image alt="#" src={whatsapp}></Image>
+                        <Image alt="#" src={upwork}></Image>
                     </ContactsBlock>
                 </div>
                 <div style={{

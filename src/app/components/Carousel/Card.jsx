@@ -7,7 +7,7 @@ export default function Card () {
         <CardContainer>
             <Block>
                 <BlockTitle>Video Editing</BlockTitle>
-                <Arrow><Image src={arrow}></Image></Arrow>
+                <Arrow><Image alt="#" src={arrow}></Image></Arrow>
             </Block>
         </CardContainer>
     )

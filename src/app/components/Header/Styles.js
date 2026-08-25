@@ -17,3 +17,38 @@ export const Container = styled.div`
         font-size: 16px;
     }
 `;
+
+export const MContainer = styled.div`
+    background: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 100px;
+    width: 90px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+`
+
+export const ElementsContainer = styled.div`
+    background: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    height: 190px;
+    width: 280px;
+    border-radius: 50px;
+    transition: all 2s;
+`

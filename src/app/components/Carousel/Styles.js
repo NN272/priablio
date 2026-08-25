@@ -44,7 +44,7 @@ export const LButton = styled.button`
     margin-left: -150px;
     border: 0px;
 
-    @media(max-width: 450px) {
+    @media(max-width: 800px) {
         display: none;
     }
 `
@@ -54,7 +54,7 @@ export const RButton = styled.button`
     border: 0px;
 
     
-    @media(max-width: 450px) {
+    @media(max-width: 800px) {
         display: none;
     }
 `
